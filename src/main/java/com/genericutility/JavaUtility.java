@@ -1,4 +1,4 @@
-package GIT_Practice;
+package com.genericutility;
 
 import java.util.Random;
 

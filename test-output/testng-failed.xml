@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
-  <test thread-count="5" name="Test(failed)" parallel="tests">
-    <parameter name="browser" value="internet explorer"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Facebook.Sending_Request">
+      <class name="Login.Login_WithOutHardCode">
         <methods>
-          <include name="logoutApplication"/>
-          <include name="request"/>
-          <include name="openBrowser"/>
-          <include name="loginApplication"/>
-          <include name="closeBroser"/>
+          <include name="laduLalit"/>
         </methods>
-      </class> <!-- Facebook.Sending_Request -->
+      </class> <!-- Login.Login_WithOutHardCode -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
