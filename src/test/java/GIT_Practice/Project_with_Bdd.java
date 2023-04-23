@@ -13,7 +13,7 @@ public class Project_with_Bdd {
 	public static void main(String[] args) {
 		JavaUtility j=new JavaUtility();
 		JSONObject jOb=new JSONObject();
-		jOb.put("name", "sard"+j.getRandomNo());
+		jOb.put("name", "sarda"+j.getRandomNo());
 		jOb.put("description", "Eclisci");
 		jOb.put("designation", "On-Progree");
 		jOb.put("homepage", "On-Progree");
